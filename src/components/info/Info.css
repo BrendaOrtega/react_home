@@ -1,0 +1,27 @@
+.info{
+    background-color: white;
+    width:60%;
+    margin-left:20%;
+    text-align: center;
+    color:#979797;
+}
+.image{
+    background-image: url('https://images.pexels.com/photos/296115/pexels-photo-296115.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
+    background-image: center;
+    width:100%;
+    height:300px;
+}
+.text{
+    font-size: 25px;
+    padding:10px 50px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.tittle{
+    font-size: 50px;
+    /*font-weight: bolder;*/
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 50px;
+
+
+}

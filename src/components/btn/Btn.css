@@ -1,0 +1,13 @@
+
+.btn_cotizar{
+    border:solid 1px white;
+    color:white;
+    background-color: transparent;
+    border-radius: 5px;
+    padding:5px 20px;
+    font-size: 20px;
+    width:15%;
+    margin-left: 42.5%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
