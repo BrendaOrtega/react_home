@@ -8,13 +8,13 @@ import Servicios from '../servicios/Servicios';
 class HomePage extends React.Component {
     render(){
         return (
-            <div className={css.desk}>
+            <div className={css.back}>
                 <div className={css.fondo}>
                     <Fix />
                     <Btn text="Cotizar" />
                     <Info />
+                    <Servicios />
                 </div>
-                <Servicios />
             </div>
 
         );
