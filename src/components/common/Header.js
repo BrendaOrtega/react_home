@@ -1,12 +1,5 @@
-/**
- * Created by brendaortega on 04/04/17.
- */
-/**
- * Created by brendaortega on 31/03/17.
- */
 import React from "react";
 import {Link} from "react-router";
-// import css from "../../app.css";
 import css from "./Header.css";
 
 

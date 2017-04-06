@@ -1,0 +1,45 @@
+.back{
+    background-color: white;
+    height: auto;
+    width:100%;
+    margin: 50px auto;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+}
+.tittle{
+    composes:tittle from '../info/Info.css';
+    text-align: center;
+    color:#979797;
+    margin:40px auto;
+}
+.text{
+    composes:tittle from '../info/Info.css';
+    text-align: center;
+    color:#979797;
+    font-size: 15px;
+    padding-top: 0px;
+}
+
+.cols{
+    margin:15px 1px;
+    padding:2px;
+    display:inline-flex;
+}
+
+.icon{
+    font-size: 40px;
+    margin:13% auto;
+    color:white;
+}
+.lenguaje{
+    font-size: 25px;
+    padding-top:12px;
+}
+.circle{
+    width:60px;
+    height:60px;
+    text-align: center;
+    background-color: blue;
+    border-radius: 50px;
+
+}

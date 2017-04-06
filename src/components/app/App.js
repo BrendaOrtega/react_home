@@ -8,7 +8,7 @@ class App extends React.Component{
     render(){
         return (
             <div>
-                <Header className=""/>
+
                 {this.props.children}
             </div>
         );
