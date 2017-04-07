@@ -4,10 +4,22 @@
     color:white;
     background-color: transparent;
     border-radius: 5px;
-    padding:5px 20px;
+    padding:5px auto;
     font-size: 20px;
     width:15%;
     margin-left: 42.5%;
     margin-top: 30px;
     margin-bottom: 50px;
+    font-family: 'Varela Round', sans-serif;
+    transition: all 1s ease;
+}
+
+.btn_cotizar:hover{
+    background-color: rgba(255,255,255,0.3);
+    cursor:pointer;
+}
+
+@media(min-width: 430px){
+    width:25%;
+    margin-left: 37.5%;
 }

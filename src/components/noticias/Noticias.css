@@ -1,0 +1,19 @@
+.back{
+    width:100%;
+    height:auto;
+    background-color: white;
+}
+.image{
+    width: 80%;
+    margin-left: 10%;
+    height:auto;
+    filter: grayscale(90%);
+    opacity: 0.5;
+}
+.tittle{
+    composes:tittle from '../about/About.css';
+}
+h3{
+    padding: 0px;
+    margin: 0px;
+}

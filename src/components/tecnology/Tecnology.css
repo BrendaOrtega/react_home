@@ -16,7 +16,7 @@
     composes:tittle from '../info/Info.css';
     text-align: center;
     color:#979797;
-    font-size: 15px;
+    font-size: 25px;
     padding-top: 0px;
 }
 
@@ -32,14 +32,17 @@
     color:white;
 }
 .lenguaje{
-    font-size: 25px;
+    font-size: 20px;
     padding-top:12px;
+    color:#979797;
+    font-family: 'Quicksand', sans-serif;
+
 }
 .circle{
     width:60px;
     height:60px;
     text-align: center;
-    background-color: blue;
+    background-color: #bdcacb;
     border-radius: 50px;
 
 }

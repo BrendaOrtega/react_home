@@ -1,4 +1,9 @@
+
 .portafolio{
+    padding-bottom: 50px;
+    background-color: #f0f0f0;
+    width:100%;
+    min-height:950px;
 
 }
 .tittle{
@@ -27,6 +32,9 @@
     width:100%;
     height:auto;
 
+}
+.tarjeta:hover, .tarjetados:hover {
+    box-shadow: 0 0 8px 4px rgba(238, 228, 187, .5);
 }
 .text{
     font-size: 25px;

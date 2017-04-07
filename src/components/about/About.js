@@ -4,7 +4,7 @@ import css from './About.css';
 class About extends React.Component {
     render(){
         return (
-          <div className={css.portafolio}>
+          <section className={css.portafolio}>
             <h3 className={css.tittle}>Portafolio</h3>
               <div className="row col-lg-10 col-lg-offset-1">
                   <div className=' col-lg-4 '>
@@ -39,7 +39,7 @@ class About extends React.Component {
                       </div>
                   </div>
               </div>
-          </div>
+          </section>
         );
     }
 }
