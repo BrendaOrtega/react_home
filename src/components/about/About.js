@@ -6,38 +6,47 @@ class About extends React.Component {
         return (
           <section className={css.portafolio}>
             <h3 className={css.tittle}>Portafolio</h3>
-              <div className="row col-lg-10 col-lg-offset-1">
-                  <div className=' col-lg-4 '>
-                      <div className={css.tarjeta}>
-                        <img className={css.image} src="https://images.pexels.com/photos/307007/pexels-photo-307007.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt=""/>
-                        <p className={css.text}>Reto Zapopan</p>
+              <div className={css.contenedor + ' row '}>
+                  <div className=' col-lg-4 col-md-4 col-sm-4 col-xs-12 '>
+                      <div className="img-containers-inv">
+                          <div className="img-click">
+                        <img className="img-responsive" src="https://images.pexels.com/photos/265667/pexels-photo-265667.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt=""/>
+                        <p className="img-info">OTEH: Red Sinergica virtual</p></div>
                       </div>
-                      <div className={css.tarjetatres}>
-                          <img className={css.image} src="https://images.pexels.com/photos/307007/pexels-photo-307007.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt=""/>
-                          <p className={css.text}>Reto Zapopan</p>
+                      <div className="img-containers-inv">
+                          <div className="img-click">
+                              <img className="img-responsive" src="https://images.pexels.com/photos/40120/pexels-photo-40120.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt=""/>
+                                <p className="img-info">Consulta estatal para el PED</p>
+                          </div>
                       </div>
+                  </div>
+                  <div className=' col-lg-4 col-md-4 col-sm-4 col-xs-12 '>
+                      <div className="img-containers">
+                          <div className="img-click">
+                              <img className="img-responsive" src="https://images.pexels.com/photos/271560/pexels-photo-271560.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt=""/>
+                              <p className="img-info">Crowdfunding Zapopan</p></div>
+                      </div>
+                      <div className="img-containers">
+                          <div className="img-click">
+                              <img className="img-responsive" src="https://images.pexels.com/photos/57825/pexels-photo-57825.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt=""/>
+                              <p className="img-info">Consulta estatal para el PED</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div className=' col-lg-4 col-md-4 col-sm-4 col-xs-12 '>
+                      <div className="img-container">
+                          <div className="img-click">
+                              <img className="img-responsive" src="https://images.pexels.com/photos/40120/pexels-photo-40120.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt=""/>
+                              <p className="img-info">Reto Zapopan</p></div>
+                      </div>
+                      <div className="img-container">
+                          <div className="img-click">
+                              <img className="img-responsive" src="https://images.pexels.com/photos/40120/pexels-photo-40120.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt=""/>
+                              <p className="img-info">Reto Zapopan</p>
+                          </div>
+                      </div>
+                  </div>
 
-                  </div>
-                  <div className=' col-lg-4 '>
-                      <div className={css.tarjetados}>
-                          <img className={css.image} src="https://images.pexels.com/photos/307007/pexels-photo-307007.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt=""/>
-                          <p className={css.text}>Reto Zapopan</p>
-                      </div>
-                      <div className={css.tarjetados}>
-                          <img className={css.image} src="https://images.pexels.com/photos/307007/pexels-photo-307007.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt=""/>
-                          <p className={css.text}>Reto Zapopan</p>
-                      </div>
-                  </div>
-                  <div className=' col-lg-4 '>
-                      <div className={css.tarjeta}>
-                          <img className={css.image} src="https://images.pexels.com/photos/307007/pexels-photo-307007.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt=""/>
-                          <p className={css.text}>Reto Zapopan</p>
-                      </div>
-                      <div className={css.tarjetatres}>
-                          <img className={css.image} src="https://images.pexels.com/photos/307007/pexels-photo-307007.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt=""/>
-                          <p className={css.text}>Reto Zapopan</p>
-                      </div>
-                  </div>
               </div>
           </section>
         );

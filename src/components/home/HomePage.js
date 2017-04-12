@@ -13,6 +13,7 @@ import Nav from '../nav/Nav';
 
 
 
+
 class HomePage extends React.Component {
     render(){
         return (
@@ -28,6 +29,7 @@ class HomePage extends React.Component {
                     <About />
                     <Noticias />
                     <Footer />
+
                 </div>
 
             </div>

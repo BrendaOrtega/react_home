@@ -8,7 +8,16 @@
     margin-left: 10%;
     height:auto;
     filter: grayscale(90%);
-    opacity: 0.5;
+    opacity: 0.4;
+}
+.imagen{
+    composes: image;
+    margin-top: 19%;
+    width:90%;
+}
+.imagecenter{
+    composes:imagen;
+    margin-top: 15%;
 }
 .tittle{
     composes:tittle from '../about/About.css';
@@ -16,4 +25,7 @@
 h3{
     padding: 0px;
     margin: 0px;
+}
+.center{
+    margin-top: 40%;
 }

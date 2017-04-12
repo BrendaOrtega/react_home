@@ -1,4 +1,3 @@
-
 .portafolio{
     padding-bottom: 50px;
     background-color: #f0f0f0;
@@ -6,40 +5,13 @@
     min-height:950px;
 
 }
+.contenedor{
+    width:90%;
+    margin-left:5%;
+}
 .tittle{
     composes:tittle from '../info/Info.css';
     text-align: center;
     color:#979797;
     margin-bottom: 50px;
-}
-.tarjeta{
-    background-color: white;
-    width:80%;
-    height:auto;
-    margin: 0 10%;
-}
-.tarjetados{
-    background-color: white;
-    width:100%;
-    height:auto;
-    margin-top: 70px;
-}
-.tarjetatres{
-    composes: tarjeta ;
-    margin-top: 70px;
-}
-.image{
-    width:100%;
-    height:auto;
-
-}
-.tarjeta:hover, .tarjetados:hover {
-    box-shadow: 0 0 8px 4px rgba(238, 228, 187, .5);
-}
-.text{
-    font-size: 25px;
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
-    color:#979797;
-    padding: 15px 0px;
 }

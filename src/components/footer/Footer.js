@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router";
 import css from './Footer.css';
 
 class Footer extends React.Component{
@@ -13,12 +14,16 @@ class Footer extends React.Component{
                         <p>7757609276</p>
                     </div>
                     <div className={css.redes + ' col-lg-6 '}>
-                        <i className={ css.icon + " fa fa-facebook-square "} aria-hidden="true"></i>
-                        <i className={css. icon + " fa fa-twitter-square " }aria-hidden="true"></i>
-                        <i className={css.icon + " fa fa-instagram "} aria-hidden="true"></i>
-
+                        <Link href="">
+                         <i className= "icon fa fa-facebook-square " aria-hidden="true"></i>
+                        </Link>
+                        <Link href="">
+                            <i className="icon fa fa-twitter-square " aria-hidden="true"></i>
+                        </Link>
+                        <Link href="">
+                            <i className= " icon fa fa-instagram " aria-hidden="true"></i>
+                        </Link>
                     </div>
-
                 </div>
 
             </div>
