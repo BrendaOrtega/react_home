@@ -6,6 +6,7 @@ class Footer extends React.Component{
     render() {
         return (
             <div className={css.back}>
+                <div className="container">
                 <div className=" row ">
                     <div className={css.datos + ' col-lg-6 '}>
                         <h3> Fixter</h3>
@@ -25,7 +26,7 @@ class Footer extends React.Component{
                         </Link>
                     </div>
                 </div>
-
+            </div>
             </div>
         );
     }

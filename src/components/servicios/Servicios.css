@@ -23,11 +23,11 @@
     background-color: white;
 }
 .service{
-    margin-top: 100px;
     width: 70%;
     margin-left: 15%;
     background-color: white;
-    height:820px;
+    height:830px;
+
 }
 .tittle{
     composes:tittle from '../info/Info.css';
@@ -35,7 +35,7 @@
     margin-top: 20px;
     text-align: center;
     color:#979797;
-    padding: 0px;
+    padding: 30px;
 }
 .icon{
     width:50%;
