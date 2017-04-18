@@ -15,7 +15,7 @@ class Nav extends React.Component{
                     </div>
                     <div className={css.pestanas + ' col-lg-8 col-md-8 '}>
                         <Link className={css.link + ' col-lg-2 '} to="servicios"> Servicios</Link>
-                        <Link className={css.link + ' col-lg-2 '} to="blog"> Blog</Link>
+                        <a href="http://blog.fixter.org/" className={css.link + ' col-lg-2 '} target="_blank"> Blog</a>
                         <Link className={css.link + ' col-lg-2 '} to="contacto"> Contacto</Link>
                         <div className={css.menu + ' col-lg-2 col-md-2 col-sm-6 col-xs-6 '}>
                         <span>Menu<i className="fa fa-bars" aria-hidden="true"></i></span>

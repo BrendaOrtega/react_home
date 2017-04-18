@@ -19,10 +19,10 @@
 
 }
 .tittle{
-    font-size: 43px;
+    font-size: 44px;
     /*font-weight: bolder;*/
     font-family: 'Quicksand', sans-serif;
-    padding: 50px 100px 0px 100px;
+    padding: 40px 100px 0px 100px;
 }
 
 @media(max-width:430px ){

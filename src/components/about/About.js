@@ -15,8 +15,8 @@ class About extends React.Component {
                       </div>
                       <div className="img-containers-inv left ">
                           <div className="img-click">
-                              <img className="img-responsive" src="https://images.pexels.com/photos/40120/pexels-photo-40120.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt=""/>
-                                <p className="img-info">Consulta estatal para el PED</p>
+                              <img className="img-responsive" src="https://images.pexels.com/photos/35550/ipad-tablet-technology-touch.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt=""/>
+                                <p className="img-info">E-commerce: Eric de la Parra</p>
                           </div>
                       </div>
                   </div>

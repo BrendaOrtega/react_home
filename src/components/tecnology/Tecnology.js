@@ -5,8 +5,8 @@ class Tecnology extends React.Component {
     render() {
         return (
             <div className={css.back}>
-                <h3 className={css.tittle + ' bot '}>Tecnolgias</h3>
-                <p className={css.text + ' bot '}>En Fixter desarrollamos con las tecnologias mas modernas para permitir un desarrollo optimo, escalable y que cubra con todas las necesidades de nuestros clientes</p>
+                <h3 className={css.tittle + ' bot '}>Tecnolgías</h3>
+                <p className={css.text + ' bot '}>En Fixter usamos tecnologías modernas que permiten un desarrollo óptimo, escalable y que cubre con las necesidades de nuestros clientes</p>
                 <div className='container'>
                 <div className=' row '>
                     <div className={css.fila + ' col-lg-3 col-lg-offset-3 col-md-3 col-md-offset-3 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1 left'}>
@@ -41,7 +41,7 @@ class Tecnology extends React.Component {
                                 </div>
                             </div>
                             <div className={css.cols + ' col-lg-6 '}>
-                                <p className={css.lenguaje}>React</p>
+                                <p className={css.lenguaje}>React.Js</p>
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@ class Tecnology extends React.Component {
                                 </div>
                             </div>
                             <div className={css.cols + ' col-lg-6 '}>
-                                <p className={css.lenguaje}>Unity</p>
+                                <p className={css.lenguaje}>Unity 5</p>
                             </div>
                         </div>
                     </div>

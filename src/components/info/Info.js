@@ -9,7 +9,8 @@ class Info extends React.Component {
                 <h3 className={css.tittle }>Implementa en tu empresa lo último en sitios web y aplicaciones móviles </h3>
                 <hr/>
                 <p className={css.text + ' bot '}>
-                    En Fixter puedes encontrar la solucion a tus problemas tecnologicos, marketing digital, y mas. En Fixter puedes encontrar la solucion a tus problemas tecnologicos, marketing digital, y mas.En Fixter puedes encontrar la solucion a tus problemas tecnologicos, marketing digital, y mas.
+                    En Fixter puedes encontrar la solución a tus problemas tecnológicos.
+                    Contamos con expertos en las tecnologías más modernas del desarrollo, generando software de alta calidad, escalable, intuitiva y con buenas prácticas.
                 </p>
                 <div className={css.image + ' '}></div>
             </div>

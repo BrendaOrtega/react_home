@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from "react-router";
 import css from './Footer.css';
 
 class Footer extends React.Component{
@@ -10,20 +9,20 @@ class Footer extends React.Component{
                 <div className=" row ">
                     <div className={css.datos + ' col-lg-6 '}>
                         <h3> Fixter</h3>
-                        <p>Empresa de tecnologia, ganadora de muchos premios, escuela, siempre innovando.</p>
+                        <p>Centro tecnológico, de innovación y desarrollo de software.</p>
                         <p>admin@fixter.org</p>
                         <p>7757609276</p>
                     </div>
                     <div className={css.redes + ' col-lg-6 '}>
-                        <Link href="">
-                         <i className= "icon fa fa-facebook-square " aria-hidden="true"></i>
-                        </Link>
-                        <Link href="">
-                            <i className="icon fa fa-twitter-square " aria-hidden="true"></i>
-                        </Link>
-                        <Link href="">
-                            <i className= " icon fa fa-instagram " aria-hidden="true"></i>
-                        </Link>
+                        <a href="https://www.facebook.com/Fixterorg-1333568760053068/" target="_blank">
+                         <i className= "icon fa fa-facebook-square " aria-hidden="true"  target="_blank"></i>
+                        </a>
+                        <a href="">
+                            <i className="icon fa fa-twitter-square " aria-hidden="true"  target="_blank"></i>
+                        </a>
+                        <a href="">
+                            <i className= " icon fa fa-instagram " aria-hidden="true"  target="_blank"></i>
+                        </a>
                     </div>
                 </div>
             </div>

@@ -3,17 +3,23 @@
     height: 50px;
     background-color: #2f4154;
 }
+.fondo{
+    background-color: white;
+    height: auto;
+}
+
 .map{
     margin-top:120px ;
 }
 .mapa{
-    width:600px;
+    width:100%;
     height:450px;
     frameborder:0px;
     border:none;
 }
 .form{
     margin-top: 100px;
+
 }
 .tittle{
     font-size: 18px;
@@ -43,6 +49,10 @@
     -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
+.icon{
+    composes:inp;
+    font-size: 12px;
+}
 .area{
     display: inline-flex;
     composes:inp;
@@ -67,4 +77,24 @@ input, textarea{
 }
 .inp:active{
     border:outset 2px #7eb7b4;
+}
+.btn{
+    border:solid 1px white;
+    color:white;
+    border-radius: 5px;
+    padding:5px auto;
+    width:15%;
+    margin-left: 42.5%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: 'Varela Round', sans-serif;
+    transition: all 1s ease;
+    background-color: #7eb7b4;
+    font-size: 15px;
+}
+.btn:hover{
+    background-color: transparent;
+    cursor:pointer;
+    color:#7eb7b4;
+    border: solid 1px #7eb7b4;
 }

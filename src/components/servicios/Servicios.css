@@ -37,6 +37,18 @@
     color:#979797;
     padding: 30px;
 }
+.name{
+    color:#696969;
+    font-family: 'Varela Round', sans-serif;
+}
+.description{
+    color:#878787;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 14px;
+    font-weight: lighter;
+
+}
 .icon{
     width:50%;
     margin:0 auto;
