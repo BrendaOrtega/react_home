@@ -9,19 +9,18 @@ class Tecnology extends React.Component {
                 <p className={css.text + ' bot '}>En Fixter usamos tecnologías modernas que permiten un desarrollo óptimo, escalable y que cubre con las necesidades de nuestros clientes</p>
                 <div className='container'>
                 <div className=' row '>
-                    <div className={css.fila + ' col-lg-3 col-lg-offset-3 col-md-3 col-md-offset-3 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1 left'}>
+                    <div className={css.fila + ' col-lg-3 col-lg-offset-3 col-md-3 col-md-offset-3 col-sm-5 col-sm-offset-1 col-xs-6 left'}>
                         <div className={ css.rows + ' row '}>
                             <div className={css.cols + ' col-lg-3 '}>
                                 <div className={css.circle}>
-                                    <img className={css.image} src="https://scontent.fmex5-1.fna.fbcdn.net/v/t1.0-9/17951535_1254979217930797_3534742283944892712_n.jpg?oh=aa0cb8152b356075238a507c032c1c1c&oe=5991A6ED" alt=""/>
-                                </div>
+                                    <i className={css.icon + " fa fa-code "} aria-hidden="true"></i>                                </div>
                             </div>
                             <div className={css.cols + ' col-lg-6  '}>
                                 <p className={css.lenguaje}>Django</p>
                             </div>
                         </div>
                     </div>
-                    <div className={css.fila + ' col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1 right'}>
+                    <div className={css.fila + ' col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-6 right'}>
                         <div className="row">
                             <div className={css.cols + ' col-lg-3 '}>
                                 <div className={css.circle}>
@@ -33,7 +32,7 @@ class Tecnology extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className={css.fila + ' col-lg-3 col-lg-offset-3 col-md-3 col-md-offset-3 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1 left '}>
+                    <div className={css.fila + ' col-lg-3 col-lg-offset-3 col-md-3 col-md-offset-3 col-sm-5 col-sm-offset-1 col-xs-6  left '}>
                         <div className="row">
                             <div className={css.cols + ' col-lg-3 '}>
                                 <div className={css.circle}>
@@ -45,7 +44,7 @@ class Tecnology extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className={css.fila + '  col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1 right'}>
+                    <div className={css.fila + '  col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-6 right'}>
                         <div className="row">
                             <div className={css.cols + ' col-lg-3 '}>
                                 <div className={css.circle}>
@@ -57,7 +56,7 @@ class Tecnology extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className={css.fila + ' col-lg-3 col-lg-offset-3 col-md-3 col-md-offset-3 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1 left '}>
+                    <div className={css.fila + ' col-lg-3 col-lg-offset-3 col-md-3 col-md-offset-3 col-sm-5 col-sm-offset-1 col-xs-6 left '}>
                         <div className="row">
                             <div className={css.cols + ' col-lg-3 '}>
                                 <div className={css.circle}>
@@ -69,7 +68,7 @@ class Tecnology extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className={css.fila + '  col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1 right '}>
+                    <div className={css.fila + '  col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-6 right '}>
                         <div className="row">
                             <div className={css.cols + ' col-lg-3 '}>
                                 <div className={css.circle}>
@@ -81,19 +80,7 @@ class Tecnology extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className={css.fila + ' col-lg-3 col-lg-offset-3 col-md-3 col-md-offset-3 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1 left '}>
-                        <div className="row">
-                            <div className={css.cols + ' col-lg-3 '}>
-                                <div className={css.circle}>
-                                    <i className={css.icon + " fa fa-code "} aria-hidden="true"></i>
-                                </div>
-                            </div>
-                            <div className={css.cols + ' col-lg-6 '}>
-                                <p className={css.lenguaje}>Unity 5</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className={css.fila + '  col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1 right '}>
+                    <div className={css.fila + ' col-lg-3 col-lg-offset-3 col-md-3 col-md-offset-3 col-sm-5 col-sm-offset-1 col-xs-6 left '}>
                         <div className="row">
                             <div className={css.cols + ' col-lg-3 '}>
                                 <div className={css.circle}>
@@ -105,8 +92,18 @@ class Tecnology extends React.Component {
                             </div>
                         </div>
                     </div>
-
-
+                    <div className={css.fila + '  col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-6 left '}>
+                        <div className="row">
+                            <div className={css.cols + ' col-lg-3 '}>
+                                <div className={css.circle}>
+                                    <i className={css.icon + " fa fa-code "} aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div className={css.cols + ' col-lg-6 '}>
+                                <p className={css.lenguaje}>Unity 5</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 </div>
             </div>

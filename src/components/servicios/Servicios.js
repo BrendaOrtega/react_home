@@ -7,7 +7,7 @@ class Servicios extends React.Component {
     render(){
         return (
 
-            <div className={css.service}>
+            <div className={css.service }>
                 <h3 className={css.tittle + ' bot '} >Servicios</h3>
 
                 <div className="row col-lg-10 col-lg-offset-1">

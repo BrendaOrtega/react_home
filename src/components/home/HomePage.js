@@ -22,7 +22,7 @@ class HomePage extends React.Component {
                 <div className={css.fondo}>
                     <Nav />
                     <Fix />
-                    <Btn text="Cotizar" />
+                    <Btn text="Contactar" />
                     <Info />
                     <Servicios />
                     <Tecnology />

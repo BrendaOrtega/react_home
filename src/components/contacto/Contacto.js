@@ -45,32 +45,28 @@ class Contacto extends React.Component{
                                 <div className="checkbox">
                                     <label>
                                         <input type="checkbox" id="checkboxSuccess" value="option1" />
-                                        Desarrollo de software
+                                        Software
                                     </label>
                                 </div>
                                 <div className="checkbox">
                                     <label>
                                         <input type="checkbox" id="checkboxSuccess" value="option1" />
-                                        Diseno Web
+                                        Diseño Web
                                     </label>
                                 </div>
                                 <div className="checkbox">
                                     <label>
                                         <input type="checkbox" id="checkboxSuccess" value="option1" />
-                                        Apps moviles
+                                        Apps móviles
                                     </label>
                                 </div>
                                 <div className="checkbox">
                                     <label>
                                         <input type="checkbox" id="checkboxSuccess" value="option1" />
-                                        <p>Hosting y dominios</p>
+                                        <p>Hosting u otros.</p>
                                     </label>
                                 </div>
                             </div>
-
-
-
-
                             <div className={css.formgroup}>
                                 <div className={css.area}>
                                     <div className={css.msj}>

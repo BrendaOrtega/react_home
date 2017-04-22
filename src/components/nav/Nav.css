@@ -6,28 +6,29 @@
     font-size: 30px;
     color:white;
     height:100%;
-}
-.rows{
-    width:100%;
+    display: flex;
+    justify-content: flex-start;
 }
 .col{
     padding: 0px;
     margin:0px;
 }
 .pestanas{
-    display: flex;
-    justify-content:flex-end;
     font-size: 20px;
     padding: 10px 0px;
 }
+
+.remove{
+    display:block;
+}
+
 .link{
-   margin:0px 20px;
     color:white;
     font-family: 'Poiret One', cursive;
-    transition:all 1s ease;
     text-align: center;
     transition: all 1s ease;
 }
+
 .link:hover{
     /*background-color: rgba(255,255,255,0.3);*/
     border:solid 1px white;
@@ -41,19 +42,28 @@
     color:white;
     display: none;
     font-family: 'Poiret One', cursive;
+    cursor: pointer;
+
 
 }
-@media(max-width:1150px){
-    .pestanas{
-        display: none;
-    }
+@media(max-width:1000px){
     .menu{
         display: flex;
         justify-content: flex-end;
         font-size: 20px;
-        padding: 10px 25px 10px 10px;
+        padding: 10px 20px 10px 10px;
+        width: 50%;
+
     }
     .menu i{
         margin:5px;
     }
+    .remove{
+        display: none;
+    }
+    .link:hover{
+        background-color: rgba(255,255,255,0.3);
+
+    }
 }
+

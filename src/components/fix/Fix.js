@@ -11,9 +11,6 @@ class Fix extends React.Component {
                     <p className={css.text + ' wait '}>
                         Software a tu medida
                     </p>
-                <p className="left">
-                    popo
-                </p>
             </div>
         );
     }
