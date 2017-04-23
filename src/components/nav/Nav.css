@@ -60,10 +60,14 @@
     }
     .remove{
         display: none;
+
     }
     .link:hover{
         background-color: rgba(255,255,255,0.3);
 
+    }
+    .link{
+        border-bottom:solid 1px white;
     }
 }
 

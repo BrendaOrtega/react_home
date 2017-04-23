@@ -19,7 +19,7 @@ class Contacto extends React.Component{
                         <iframe className={css.mapa} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3745.9910732526796!2d-98.80388768503683!3d20.134420023080985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1a125b9171db7%3A0xf0ef93b8ffdce18c!2sFixTeR!5e0!3m2!1ses-419!2smx!4v1492123614514" allowfullscreen></iframe>
                     </div>
                     <div className={css.form + ' col-lg-4  col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-6 col-xs-12 '}>
-                        <h3 className={css.tittle}>Si deseas mas informacion, completa el formulario</h3>
+                        <h3 className={css.tittle}>Si deseas más información, completa el formulario</h3>
                         <form method="post" name="sentMessage" action="">
                             <div className={css.formgroup}>
                                 <div className={css.inp}>
@@ -37,11 +37,11 @@ class Contacto extends React.Component{
                                 <div className={css.inp}>
                                     <i className="fa fa-phone" aria-hidden="true"></i>
 
-                                    <input type="tel" name="tel" className={css.formcontrol} placeholder="Telefono" id="phone" required data-validation-required-message="Porfavor ingresa tu numero telefonico"/>
+                                    <input type="tel" name="tel" className={css.formcontrol} placeholder="Teléfono" id="phone" required data-validation-required-message="Porfavor ingresa tu numero telefonico"/>
                                     <p className="help-block text-danger"></p></div>
                             </div>
                             <div className={css.formgroup}>
-                                <p>Desea recibir informacion de nuestros servicios:</p>
+                                <p>Desea recibir información de nuestros servicios:</p>
                                 <div className="checkbox">
                                     <label>
                                         <input type="checkbox" id="checkboxSuccess" value="option1" />
@@ -50,20 +50,20 @@ class Contacto extends React.Component{
                                 </div>
                                 <div className="checkbox">
                                     <label>
-                                        <input type="checkbox" id="checkboxSuccess" value="option1" />
+                                        <input type="checkbox" id="checkboxSuccess" value="option2" />
                                         Diseño Web
                                     </label>
                                 </div>
                                 <div className="checkbox">
                                     <label>
-                                        <input type="checkbox" id="checkboxSuccess" value="option1" />
+                                        <input type="checkbox" id="checkboxSuccess" value="option3" />
                                         Apps móviles
                                     </label>
                                 </div>
                                 <div className="checkbox">
                                     <label>
-                                        <input type="checkbox" id="checkboxSuccess" value="option1" />
-                                        <p>Hosting u otros.</p>
+                                        <input type="checkbox" id="checkboxSuccess" value="option4" />
+                                        <p>Hosting y más</p>
                                     </label>
                                 </div>
                             </div>

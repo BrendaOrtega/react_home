@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Quicksand|Raleway');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Poiret+One|Quicksand|Varela+Round|Montserrat');
 
-* {
-    box-sizing:border-box;
-}
 
 html{
     font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -13,6 +10,16 @@ html{
 }
 html, body{
     height: 100%;
+    margin-bottom: -20px;
+}
+a:visited{
+    text-decoration: none;
+    color:white;
+}
+@media(max-width: 350px){
+    html, body{
+        margin-right: -25px;
+    }
 }
 
 

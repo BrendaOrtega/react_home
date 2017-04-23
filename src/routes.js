@@ -7,6 +7,7 @@ import App from "./components/app/App";
 import HomePage from "./components/home/HomePage";
 import Servicios from "./components/servicios/Servicios";
 import Contacto from "./components/contacto/Contacto";
+import Construction from "./components/construction/Construction";
 
 
 export default (
@@ -14,7 +15,9 @@ export default (
         <IndexRoute component={HomePage} />
         <Route path="servicios" component={Servicios} />
         <Route path="contacto" component={Contacto} />
+        <Route path="construction" component={Construction} />
         <Route path="*" component={HomePage} />
+
 
     </Route>
 );

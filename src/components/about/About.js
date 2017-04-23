@@ -36,13 +36,13 @@ class About extends React.Component {
                   <div className=' col-lg-4 col-md-4 col-sm-4 col-xs-12 '>
                       <div className="img-container right">
                           <div className="img-click">
-                              <img className="img-responsive" src="https://images.pexels.com/photos/40120/pexels-photo-40120.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt=""/>
-                              <p className="img-info">Reto Zapopan</p></div>
+                              <img className="img-responsive" src="https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt=""/>
+                              <p className="img-info">Hotel Boutique Quinta Esencia</p></div>
                       </div>
                       <div className="img-container right ">
                           <div className="img-click">
-                              <img className="img-responsive" src="https://images.pexels.com/photos/40120/pexels-photo-40120.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt=""/>
-                              <p className="img-info">Reto Zapopan</p>
+                              <img className="img-responsive" src="https://images.pexels.com/photos/27704/pexels-photo-27704.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt=""/>
+                              <p className="img-info">Vijusa México</p>
                           </div>
                       </div>
                   </div>

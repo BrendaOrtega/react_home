@@ -2,7 +2,7 @@
 import React from "react";
 import {Link} from "react-router";
 import css from "./Nav.css";
-import {$,jQuery} from 'jquery';
+
 
 class Nav extends React.Component{
     constructor(){
@@ -36,7 +36,7 @@ class Nav extends React.Component{
                     <div className={css.pestanas}>
                         <div className={this.state.menu ? css.remove:''}> 
 
-                            <Link className={css.link + ' col-lg-2 col-lg-offset-4 col-md-2 col-md-offset-3 col-sm-12 col-xs-12'}  to="servicios"> Gaming</Link> 
+                            <Link className={css.link + ' col-lg-2 col-lg-offset-4 col-md-2 col-md-offset-3 col-sm-12 col-xs-12'}  to="construction"> Gaming</Link> 
                             <a href="http://blog.fixter.org/" className={css.link + ' col-lg-2 col-md-2 col-sm-12 col-xs-12'} target="_blank"> Blog</a> 
                             <Link className={css.link + ' col-lg-2 col-md-2 col-sm-12 col-xs-12'} to="contacto"> Contacto</Link>  
                         </div>

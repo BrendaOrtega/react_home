@@ -1,0 +1,13 @@
+.text{
+    width:100%;
+    height: 70vh;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    color:#979797;
+    text-align: center;
+    padding-top: 300px;
+}
+.back{
+    composes:back from '../contacto/Contacto.css';
+
+}
