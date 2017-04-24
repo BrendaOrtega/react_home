@@ -1,6 +1,13 @@
 import React from "react";
 import css from './About.css';
-import imagen from '../../assets/cel-01.png';
+import img from '../../assets/1.png';
+import imgs from '../../assets/2.png';
+import imagen from '../../assets/3.png';
+import cuatro from '../../assets/4.png';
+import cinco from '../../assets/5.png';
+import seis from '../../assets/6.png';
+
+
 
 class About extends React.Component {
     render(){
@@ -11,12 +18,12 @@ class About extends React.Component {
                   <div className=' col-lg-4 col-md-4 col-sm-4 col-xs-12 '>
                       <div className="img-containers-inv left">
                           <div className="img-click">
-                        <img className="img-responsive" src={imagen} alt=""/>
+                        <img className="img-responsive" src={img} alt=""/>
                         <p className="img-info">OTEH: Red Sinergica virtual</p></div>
                       </div>
                       <div className="img-containers-inv left ">
                           <div className="img-click">
-                              <img className="img-responsive" src="https://images.pexels.com/photos/35550/ipad-tablet-technology-touch.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt=""/>
+                              <img className="img-responsive" src={imgs} alt=""/>
                                 <p className="img-info">E-commerce: Eric de la Parra</p>
                           </div>
                       </div>
@@ -24,12 +31,12 @@ class About extends React.Component {
                   <div className=' col-lg-4 col-md-4 col-sm-4 col-xs-12 '>
                       <div className="img-containers bot ">
                           <div className="img-click">
-                              <img className="img-responsive" src="https://images.pexels.com/photos/271560/pexels-photo-271560.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt=""/>
+                              <img className="img-responsive" src={imagen} alt=""/>
                               <p className="img-info">Crowdfunding Zapopan</p></div>
                       </div>
                       <div className="img-containers bot ">
                           <div className="img-click">
-                              <img className="img-responsive" src="https://images.pexels.com/photos/57825/pexels-photo-57825.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt=""/>
+                              <img className="img-responsive" src={cuatro} alt=""/>
                               <p className="img-info">Consulta estatal para el PED</p>
                           </div>
                       </div>
@@ -37,13 +44,13 @@ class About extends React.Component {
                   <div className=' col-lg-4 col-md-4 col-sm-4 col-xs-12 '>
                       <div className="img-container right">
                           <div className="img-click">
-                              <img className="img-responsive" src="https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt=""/>
+                              <img className="img-responsive" src={seis} alt=""/>
                               <p className="img-info">Hotel Boutique Quinta Esencia</p></div>
                       </div>
                       <div className="img-container right ">
                           <div className="img-click">
-                              <img className="img-responsive" src="https://images.pexels.com/photos/27704/pexels-photo-27704.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt=""/>
-                              <p className="img-info">Vijusa México</p>
+                              <img className="img-responsive" src={cinco} alt=""/>
+                              <p className="img-info">Y más...</p>
                           </div>
                       </div>
                   </div>
