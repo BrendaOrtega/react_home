@@ -5,10 +5,19 @@
   "main": "index.js",
   "scripts": {
     "prestart": "babel-node tools/startMessage.js",
-    "start": "npm run share",
+    "start": "npm-run-all --parallel share lint:watch",
+    "lint": "node_modules/.bin/esw webpack.config.* src tools",
+    "lint:watch": "npm run lint -- --watch",
     "open:src": "babel-node tools/srcServer.js",
+    "open:prod": "babel-node tools/distServer.js",
     "localtunnel": "lt --port 8000 --subdomain brendi",
-    "share": "npm-run-all --parallel open:src localtunnel"
+    "share": "npm-run-all --parallel open:src localtunnel",
+    "clean-dist": "npm run remove-dist && mkdir dist",
+    "remove-dist": "node_modules/.bin/rimraf ./dist",
+    "build:html": "babel-node tools/buildHtml.js",
+    "prebuild": "npm-run-all clean-dist build:html",
+    "build": "babel-node tools/build.js",
+    "postbuild": "npm-run-all --parallel open:prod localtunnel"
   },
   "repository": {
     "type": "git",
@@ -24,6 +33,14 @@
   },
   "homepage": "https://github.com/HectorBlisS/react-starterkit#readme",
   "devDependencies": {
+    "extract-text-webpack-plugin": "1.0.1",
+    "rimraf": "2.5.2",
+    "eslint": "2.9.0",
+    "eslint-plugin-import": "1.6.1",
+    "eslint-plugin-react": "5.0.1",
+    "eslint-watch": "2.1.11",
+    "compression": "1.6.1",
+    "cheerio": "0.22.0",
     "babel-cli": "6.24.0",
     "babel-core": "6.24.0",
     "babel-loader": "6.4.1",
@@ -43,7 +60,7 @@
     "style-loader": "0.16.1",
     "toastr": "^2.1.2",
     "url-loader": "^0.5.8",
-    "webpack": "1.13.1",
+    "webpack": "1.13.0",
     "webpack-dev-middleware": "1.6.1",
     "webpack-hot-middleware": "2.10.0"
   },
