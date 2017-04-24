@@ -1,5 +1,6 @@
 import React from "react";
 import css from './About.css';
+import imagen from '../../assets/cel-01.png';
 
 class About extends React.Component {
     render(){
@@ -10,7 +11,7 @@ class About extends React.Component {
                   <div className=' col-lg-4 col-md-4 col-sm-4 col-xs-12 '>
                       <div className="img-containers-inv left">
                           <div className="img-click">
-                        <img className="img-responsive" src="https://images.pexels.com/photos/265667/pexels-photo-265667.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt=""/>
+                        <img className="img-responsive" src={imagen} alt=""/>
                         <p className="img-info">OTEH: Red Sinergica virtual</p></div>
                       </div>
                       <div className="img-containers-inv left ">
