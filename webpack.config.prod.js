@@ -29,13 +29,7 @@ export default {
       new webpack.DefinePlugin(GLOBALS),
       new ExtractTextPlugin('styles.css'),
       new webpack.optimize.DedupePlugin(),
-      new webpack.optimize.UglifyJsPlugin(),
-        new ImageminPlugin({
-            disable: process.env.NODE_ENV !== 'production', // Disable during development
-            pngquant: {
-                quality: '10'
-            }
-        })
+      new webpack.optimize.UglifyJsPlugin()
     ],
     module: {
         loaders: [
@@ -51,8 +45,8 @@ export default {
             {
                 test: /\.(jpe?g|png|gif|svg)$/i,
                 loaders: [
-                    'file-loader?hash=sha512&digest=hex&name=./assets/[hash].[ext]',
-                    'image-webpack-loader?bypassOnDebug&optimizationLevel=9&interlaced=false'
+                    'file-loader?hash=sha512&digest=hex&name=assets/[hash].[ext]',
+                    'image-webpack-loader?{optimizationLevel: 7, interlaced: false, pngquant:{quality: "65-90", speed: 4}, mozjpeg: {quality: 65}}'
                 ]
             }
         ]
