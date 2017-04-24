@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="057333f6-9e49-4357-a2c2-f370c0c4edc6" name="Default" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.eslintrc" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/bundle.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/bundle.js.map" />
@@ -444,6 +445,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/about/About.js" afterPath="$PROJECT_DIR$/src/components/about/About.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/home/HomePage.css" afterPath="$PROJECT_DIR$/src/components/home/HomePage.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.dev.js" afterPath="$PROJECT_DIR$/webpack.config.dev.js" />
+=======
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/836155f757b5659e9446d3a31e8caa24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/f1224ebcc42b44226aa414bce80fd715.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bundle.js" afterPath="$PROJECT_DIR$/dist/bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bundle.js.map" afterPath="$PROJECT_DIR$/dist/bundle.js.map" />
+>>>>>>> e3bdd9bc4c3bd7b1c5e19d3e964b45a16a087323
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.prod.js" afterPath="$PROJECT_DIR$/webpack.config.prod.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -577,8 +585,8 @@
       <file leaf-file-name="webpack.config.prod.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webpack.config.prod.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="742">
-              <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+            <state relative-caret-position="202">
+              <caret line="19" column="54" lean-forward="false" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -590,7 +598,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="466">
-              <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+              <caret line="52" column="37" lean-forward="false" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -600,7 +608,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/about/About.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+              <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -612,7 +620,7 @@
         <entry file="file://$PROJECT_DIR$/webpack.config.dev.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="555">
-              <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+              <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -729,10 +737,13 @@
         <option value="$PROJECT_DIR$/tools/buildHtml.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/components/home/HomePage.css" />
-        <option value="$PROJECT_DIR$/webpack.config.prod.js" />
         <option value="$PROJECT_DIR$/src/components/about/About.js" />
         <option value="$PROJECT_DIR$/webpack.config.dev.js" />
+<<<<<<< HEAD
 >>>>>>> 0b1e48ae4a73f65e38e395835354576533b3e45c
+=======
+        <option value="$PROJECT_DIR$/webpack.config.prod.js" />
+>>>>>>> e3bdd9bc4c3bd7b1c5e19d3e964b45a16a087323
       </list>
     </option>
   </component>
@@ -801,6 +812,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -957,6 +969,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+=======
+>>>>>>> e3bdd9bc4c3bd7b1c5e19d3e964b45a16a087323
               <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1090,12 +1104,17 @@
 =======
       <workItem from="1492881778172" duration="8420000" />
       <workItem from="1493063948927" duration="3119000" />
+<<<<<<< HEAD
       <workItem from="1493071357528" duration="1334000" />
 >>>>>>> 0b1e48ae4a73f65e38e395835354576533b3e45c
+=======
+      <workItem from="1493071357528" duration="2173000" />
+>>>>>>> e3bdd9bc4c3bd7b1c5e19d3e964b45a16a087323
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="134165000" />
   </component>
@@ -1106,6 +1125,9 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16582915" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
 =======
     <option name="totallyTimeSpent" value="137699000" />
+=======
+    <option name="totallyTimeSpent" value="138538000" />
+>>>>>>> e3bdd9bc4c3bd7b1c5e19d3e964b45a16a087323
   </component>
   <component name="ToolWindowManager">
     <frame x="716" y="23" width="953" height="1027" extended-state="0" />
@@ -1597,7 +1619,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/about/About.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1607,7 +1629,7 @@
     <entry file="file://$PROJECT_DIR$/webpack.config.dev.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
-          <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+          <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1615,15 +1637,15 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="466">
-          <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+          <caret line="52" column="37" lean-forward="false" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.prod.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="742">
-          <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        <state relative-caret-position="202">
+          <caret line="19" column="54" lean-forward="false" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>

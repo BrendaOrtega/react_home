@@ -51,7 +51,7 @@ export default {
             {
                 test: /\.(jpe?g|png|gif|svg)$/i,
                 loaders: [
-                    'file-loader?hash=sha512&digest=hex&name=[hash].[ext]',
+                    'file-loader?hash=sha512&digest=hex&name=./assets/[hash].[ext]',
                     'image-webpack-loader?bypassOnDebug&optimizationLevel=9&interlaced=false'
                 ]
             }
