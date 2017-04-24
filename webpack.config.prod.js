@@ -46,7 +46,7 @@ export default {
                 test: /\.(jpe?g|png|gif|svg)$/i,
                 loaders: [
                     'file-loader?hash=sha512&digest=hex&name=assets/[hash].[ext]',
-                    'image-webpack-loader?{optimizationLevel: 7, interlaced: false, pngquant:{quality: "65-90", speed: 4}, mozjpeg: {quality: 65}}'
+                    'image-webpack-loader?{optimizationLevel: 7, interlaced: false, pngquant:{quality: "0-7", speed: 4}, mozjpeg: {quality: 10}}'
                 ]
             }
         ]
