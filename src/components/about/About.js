@@ -50,7 +50,7 @@ class About extends React.Component {
                       <div className="img-container right ">
                           <div className="img-click">
                               <img className="img-responsive" src={cinco} alt=""/>
-                              <p className="img-info">Vijusa México</p>
+                              <p className="img-info">Y más...</p>
                           </div>
                       </div>
                   </div>
