@@ -35,6 +35,10 @@ export default {
         loaders: [
             {test: /\.js$/, include: path.join(__dirname, 'src'), loaders: ['babel']},
             {
+                test: /\.css\?global$/,
+                loader: ExtractTextPlugin.extract('style-loader', 'css-loader')
+            },
+            {
                 test: /\.css$/, loaders: ['style-loader','css-loader?modules&localIdentName=[local]---[hash:base64:5]']
             },
             // {test: /(\.css)$/, loader: ExtractTextPlugin.extract('css?sourceMap')},
@@ -46,7 +50,7 @@ export default {
                 test: /\.(jpe?g|png|gif|svg)$/i,
                 loaders: [
                     'file-loader?hash=sha512&digest=hex&name=assets/[hash].[ext]',
-                    'image-webpack-loader?{optimizationLevel: 7, interlaced: false, pngquant:{quality: "0-7", speed: 4}, mozjpeg: {quality: 10}}'
+                    'image-webpack-loader?{optimizationLevel: 7, interlaced: false, pngquant:{quality: "65-90", speed: 4}, mozjpeg: {quality: 65}}'
 
                 ]
             }

@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Poiret+One|Quicksand|Varela+Round|Raleway');
+/*@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');*/
+/*@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');*/
+/*@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Poiret+One|Quicksand|Varela+Round|Raleway');*/
+@font-face {
+    font-family: 'Quicksand', sans-serif;
+    src: url('./Quicksand-Regular.ttf');
+    font-weight: normal;
+}
 
 
 html{
