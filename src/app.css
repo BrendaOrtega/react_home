@@ -2,10 +2,23 @@
 /*@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');*/
 /*@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Poiret+One|Quicksand|Varela+Round|Raleway');*/
 @font-face {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand';
     src: url('./Quicksand-Regular.ttf');
-    font-weight: normal;
+    font-weight: bold;
 }
+
+@font-face {
+    font-family: 'Poiret One';
+    src: url('./PoiretOne-Regular.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('./Quicksand-Regular.ttf');
+    font-weight: bold;
+}
+
 
 
 html{
