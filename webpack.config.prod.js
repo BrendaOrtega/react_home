@@ -47,6 +47,7 @@ export default {
                 loaders: [
                     'file-loader?hash=sha512&digest=hex&name=assets/[hash].[ext]',
                     'image-webpack-loader?{optimizationLevel: 7, interlaced: false, pngquant:{quality: "0-7", speed: 4}, mozjpeg: {quality: 10}}'
+
                 ]
             }
         ]
