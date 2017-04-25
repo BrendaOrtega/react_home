@@ -10,7 +10,7 @@
     "lint:watch": "npm run lint -- --watch",
     "open:src": "babel-node tools/srcServer.js",
     "open:prod": "babel-node tools/distServer.js",
-    "localtunnel": "lt --port 8000 --subdomain cochi",
+    "localtunnel": "lt --port 8000 --subdomain brendi",
     "share": "npm-run-all --parallel open:src localtunnel",
     "clean-dist": "npm run remove-dist && mkdir dist",
     "remove-dist": "node_modules/.bin/rimraf ./dist",
