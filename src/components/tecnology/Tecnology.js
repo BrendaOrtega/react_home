@@ -3,7 +3,6 @@ import css from './Tecnology.css';
 import sr from './scrollReveal.js';
 
 export class Tecnology extends React.Component {
-
     componentDidMount () {
         const config = {
         origin: 'right',
@@ -147,5 +146,4 @@ export class Tecnology extends React.Component {
         );
     }
 }
-
 export default Tecnology;
