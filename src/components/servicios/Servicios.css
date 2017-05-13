@@ -27,6 +27,7 @@
     margin-left: 15%;
     background-color: white;
     height:830px;
+    overflow-x:hidden ;
 
 }
 .tittle{

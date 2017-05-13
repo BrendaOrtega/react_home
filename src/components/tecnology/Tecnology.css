@@ -5,6 +5,7 @@
     margin: 50px auto;
     padding-bottom: 50px;
     margin-bottom: 0px;
+    overflow-x:hidden ;
 }
 .tittle{
     composes:tittle from '../info/Info.css';
