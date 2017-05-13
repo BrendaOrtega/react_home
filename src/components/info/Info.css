@@ -1,4 +1,4 @@
-.info{
+.inf{
     background-color: white;
     width:70%;
     margin-left:15%;
@@ -7,8 +7,9 @@
     margin-bottom: 70px;
 }
 .image{
-    background-image: url('../../assets/info.png');
-    background-image: center;
+    background-image: url('../../assets/inf_image-01.svg');
+    background-repeat:  no-repeat;
+    background-size: cover;
     width:100%;
     height:300px;
 }

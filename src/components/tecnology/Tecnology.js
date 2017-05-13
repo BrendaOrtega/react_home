@@ -1,7 +1,42 @@
 import React from 'react';
 import css from './Tecnology.css';
+import sr from './scrollReveal.js';
 
-class Tecnology extends React.Component {
+export class Tecnology extends React.Component {
+
+    componentDidMount () {
+        const config = {
+        origin: 'right',
+        duration: 1000,
+        delay: 150,
+        distance: '500px',
+        scale: 1,
+        easing: 'ease',
+        }
+
+        const config2 = {
+        origin: 'left',
+        duration: 1000,
+        delay: 150,
+        distance: '500px',
+        scale: 1,
+        easing: 'ease',
+        }
+        const config3 = {
+        origin: 'bottom',
+        duration: 800,
+        delay: 100,
+        distance: '500px',
+        scale: 1,
+        easing: 'ease',
+        }
+
+        sr.reveal('.right', config2);
+        sr.reveal('.left', config);
+        sr.reveal('.bot', config3);
+        
+        }
+
     render() {
         return (
             <div className={css.back}>
@@ -10,7 +45,7 @@ class Tecnology extends React.Component {
                 <div className='container'>
                 <div className={css.content + 'row ' }>
                     <div className={css.fila + ' col-lg-3 col-lg-offset-3 col-md-3 col-md-offset-3 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1 left'}>
-                        <div className={ css.rows + ' row '}>
+                        <div ref='right' className={ css.rows + ' row '}>
                             <div className={css.cols + ' col-lg-3 '}>
                                 <div className={css.circle}>
                                     <i className={css.icon + " fa fa-code "} aria-hidden="true"></i>
@@ -22,7 +57,7 @@ class Tecnology extends React.Component {
                         </div>
                     </div>
                     <div className={css.fila + ' col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1 right'}>
-                        <div className="row">
+                        <div ref='left' className="row">
                             <div className={css.cols + ' col-lg-3 '}>
                                 <div className={css.circle}>
                                     <i className={css.icon + " fa fa-code "} aria-hidden="true"></i>
@@ -34,7 +69,7 @@ class Tecnology extends React.Component {
                         </div>
                     </div>
                     <div className={css.fila + ' col-lg-3 col-lg-offset-3 col-md-3 col-md-offset-3 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1 left '}>
-                        <div className="row">
+                        <div ref='right' className="row">
                             <div className={css.cols + ' col-lg-3 '}>
                                 <div className={css.circle}>
                                     <i className={css.icon + " fa fa-code "} aria-hidden="true"></i>
@@ -46,7 +81,7 @@ class Tecnology extends React.Component {
                         </div>
                     </div>
                     <div className={css.fila + '  col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1 right'}>
-                        <div className="row">
+                        <div ref='left' className="row">
                             <div className={css.cols + ' col-lg-3 '}>
                                 <div className={css.circle}>
                                     <i className={css.icon + " fa fa-code "} aria-hidden="true"></i>
@@ -58,7 +93,7 @@ class Tecnology extends React.Component {
                         </div>
                     </div>
                     <div className={css.fila + ' col-lg-3 col-lg-offset-3 col-md-3 col-md-offset-3 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1 left '}>
-                        <div className="row">
+                        <div ref='right' className="row">
                             <div className={css.cols + ' col-lg-3 '}>
                                 <div className={css.circle}>
                                     <i className={css.icon + " fa fa-code "} aria-hidden="true"></i>
@@ -70,7 +105,7 @@ class Tecnology extends React.Component {
                         </div>
                     </div>
                     <div className={css.fila + '  col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1 right '}>
-                        <div className="row">
+                        <div ref='left' className="row">
                             <div className={css.cols + ' col-lg-3 '}>
                                 <div className={css.circle}>
                                     <i className={css.icon + " fa fa-code "} aria-hidden="true"></i>
@@ -82,7 +117,7 @@ class Tecnology extends React.Component {
                         </div>
                     </div>
                     <div className={css.fila + ' col-lg-3 col-lg-offset-3 col-md-3 col-md-offset-3 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1 left '}>
-                        <div className="row">
+                        <div ref='right' className="row">
                             <div className={css.cols + ' col-lg-3 '}>
                                 <div className={css.circle}>
                                     <i className={css.icon + " fa fa-code "} aria-hidden="true"></i>
@@ -93,8 +128,8 @@ class Tecnology extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className={css.fila + '  col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1 left '}>
-                        <div className="row">
+                    <div className={css.fila + '  col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1 right '}>
+                        <div ref='left' className="row">
                             <div className={css.cols + ' col-lg-3 '}>
                                 <div className={css.circle}>
                                     <i className={css.icon + " fa fa-code "} aria-hidden="true"></i>

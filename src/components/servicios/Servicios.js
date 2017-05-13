@@ -4,17 +4,17 @@ import cel from '../../assets/cel-01.png';
 import lap from '../../assets/lap2.png';
 import laptop from '../../assets/compu-01.png';
 import server from '../../assets/servidor-01.png';
+import sr from './scrollReveal.js';
 
+export class Servicios extends React.Component {
 
-class Servicios extends React.Component {
     render(){
         return (
 
-            <div className={css.service }>
-                <h3 className={css.tittle + ' bot '} >Servicios</h3>
-
+            <div  className={css.service }>
+                <h3  className={css.tittle + ' bot '} >Servicios</h3>
+                
                 <div className="row col-lg-10 col-lg-offset-1">
-
                     <div className={css.col + ' col-lg-6 col-md-6 col-sm-6 col-xs-12 left'}>
                         <div className={css.svc}>
                             <img className={css.icon} src={lap} alt=""/>
@@ -22,7 +22,7 @@ class Servicios extends React.Component {
                             <p className={css.description}>Desarrollamos apps que cubren las necesidades de tu empresa o start up, fáciles de usar, optimizadas, escalables y desarrolladas con tecnologías modernas y seguras. </p>
                         </div>
                     </div>
-                    <div className={css.col + ' col-lg-6 col-md-6 col-sm-6 col-xs-12 right'}  >
+                    <div  className={css.col + ' col-lg-6 col-md-6 col-sm-6 col-xs-12 right'}  >
                         <div className={css.svcs}>
                             <img className={css.icon} src={laptop} alt=""/>
                             <h3  className={css.name}>Diseño Web</h3>
@@ -30,7 +30,7 @@ class Servicios extends React.Component {
                         </div>
                     </div>
                 </div>
-                    <div className="row col-lg-10 col-lg-offset-1">
+                    <div  className="row col-lg-10 col-lg-offset-1">
                         <div className={css.col + ' col-lg-6 col-md-6 col-sm-6 col-xs-12 left'} >
                             <div className={css.sv}>
                                 <img className={css.icon} src={cel} alt=""/>
@@ -38,7 +38,7 @@ class Servicios extends React.Component {
                                 <p  className={css.description}>Desarrollamos aplicaciones nativas para IOS, Android y Windows Phone, volviendo la experiencia del usuario más atractiva, ágil e intuitiva; además de apps híbridas.</p>
                             </div>
                         </div>
-                        <div className={css.col + ' col-lg-6 col-md-6 col-sm-6 col-xs-12 right'} >
+                        <div  className={css.col + ' col-lg-6 col-md-6 col-sm-6 col-xs-12 right'} >
                             <div className={css.svs}>
                                 <img className={css.icon} src={server} alt=""/>
                                 <h3  className={css.name}>Hosting y dominios</h3>

@@ -4,7 +4,7 @@
     background-color: white;
 }
 .back{
-    background-image:url('https://images.pexels.com/photos/132650/pexels-photo-132650.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
+    background-image:url('../../assets/background-01.svg');
     background-position: cover;
     width: 100%;
     height:auto;

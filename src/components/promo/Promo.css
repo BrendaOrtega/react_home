@@ -1,5 +1,7 @@
 .back{
-    background-image: url('https://scontent.fmex5-1.fna.fbcdn.net/v/t31.0-8/17855369_1252998264795559_380629832554514713_o.jpg?oh=ee90cc829483525fbbce7e3f42a9ab48&oe=598B3BB1');
+    background-image: url('../../assets/fondo7-01.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     width:100%;
     height:auto;
     margin:0px;
