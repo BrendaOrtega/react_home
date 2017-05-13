@@ -8,7 +8,7 @@ export class Tecnology extends React.Component {
         origin: 'right',
         duration: 1000,
         delay: 150,
-        distance: '500px',
+        distance: '100%',
         scale: 1,
         easing: 'ease',
         }
@@ -17,7 +17,7 @@ export class Tecnology extends React.Component {
         origin: 'left',
         duration: 1000,
         delay: 150,
-        distance: '500px',
+        distance: '100%',
         scale: 1,
         easing: 'ease',
         }
@@ -25,7 +25,7 @@ export class Tecnology extends React.Component {
         origin: 'bottom',
         duration: 800,
         delay: 100,
-        distance: '500px',
+        distance: '100%',
         scale: 1,
         easing: 'ease',
         }
@@ -146,4 +146,5 @@ export class Tecnology extends React.Component {
         );
     }
 }
+
 export default Tecnology;

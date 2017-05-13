@@ -9,7 +9,6 @@ import sr from './scrollReveal.js';
             origin: 'bottom',
       duration: 1000,
       delay: 150,
-      distance: '500px',
       scale: 1,
       easing: 'ease',
         }
