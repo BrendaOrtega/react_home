@@ -11,16 +11,17 @@
     opacity: 0.4;
 }
 .imagen{
-    composes: image;
     margin-top: 19%;
     width:90%;
 }
+
 .imagecenter{
     composes:imagen;
     margin-top: 15%;
 }
 .tittle{
     composes:tittle from '../about/About.css';
+    margin-bottom: 0px;
 }
 h3{
     padding: 0px;

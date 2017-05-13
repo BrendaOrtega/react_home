@@ -1,10 +1,10 @@
 import React from "react";
 import {Link} from "react-router";
 import css from './Noticias.css';
-import milenio from '../../assets/mil.png';
-import gob from '../../assets/gobmx.png';
-import hidalgo from '../../assets/hidalgo.png'
-import inde from '../../assets/indep.png';
+import Gob from '../gob/Gob';
+import Milenio from '../milenio/Milenio';
+import Hgo from '../hgo/Hgo';
+import Indep from '../indep/Indep';
 
 class Noticias extends React.Component {
     render(){
@@ -15,22 +15,22 @@ class Noticias extends React.Component {
                 <div className="row">
                     <div className={' col-lg-3 col-md-3 col-sm-3 col-xs-6 bot '}>
                         <Link href="http://www.milenio.com/firmas/columna_ciencia_y_tecnologia_columna_ciencia_y_tecnologia/nerd_18_759104125.html" target="_blank">
-                        <img className={css.image} src={milenio} alt="Milenio"/>
+                        <Milenio />
                         </Link>
                     </div>
                     <div className={' col-lg-3 col-md-3 col-sm-3 col-xs-6 bot '}>
                         <Link href="http://www.gob.mx/se/prensa/otorgan-premio-a-los-ganadores-del-reto-crowfunding-reto-zapopan"  target="_blank">
-                        <img className={css.image} src={gob} alt="Gob.mx"/>
+                        <Gob />
                         </Link>
                     </div>
                     <div className={' col-lg-3 col-md-3 col-sm-3 col-xs-6 bot '}>
                     <Link href="http://www.elindependientedehidalgo.com.mx/archivo/2016/04/324454" target="_blank">
-                        <img className={css.imagen} src={inde} alt="Independiente"  />
+                      <Indep />
                     </Link>
                 </div>
                     <div className={' col-lg-3 col-md-3 col-sm-3 col-xs-6 bot '}>
                         <Link href="http://comunicacion.hidalgo.gob.mx/?p=26428" target="_blank">
-                        <img className={css.imagecenter} src={hidalgo} alt="Hidalgo"  />
+                        <Hgo />
                         </Link>
                     </div>
 

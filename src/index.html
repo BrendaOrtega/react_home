@@ -2,7 +2,7 @@
     <head>
         <meta name="viewport" content="width=device-width">
         <meta charset="utf-8"/>
-
+        <link rel="stylesheet" href="styles.css"/>  
         <style>
             .img-info{
                 position: absolute;
@@ -155,6 +155,9 @@
                     transform: rotate(0deg);
                 }
             }
+            
+
+
 
         </style>
 
@@ -162,7 +165,38 @@
     <body>
         <div id="app"></div>
 
-        <script src="bundle.js"r></script>
+        <script src="bundle.js" async></script> 
         <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+          <script>
+            // JavaScript
+            window.sr = ScrollReveal();
+            var left = {
+                viewFactor: 1.5,
+                origin: 'left',
+                duration: 300
+            };
+            var right = {
+                viewFactor: 1.6,
+                origin: 'right',
+                duration: 300
+            };
+            var bot = {
+                viewFactor: 1.6,
+                origin: 'bottom',
+                duration: 300
+            };
+            var wait = {
+                viewFactor: 1.6,
+                origin: 'bottom',
+                duration: 300,
+                delay: 500
+            };
+            sr.reveal('.left',left);
+            sr.reveal('.right',right);
+            sr.reveal('.bot', bot);
+            sr.reveal('.wait', wait);
+        
+        </script>      
+     
     </body>
 </html>

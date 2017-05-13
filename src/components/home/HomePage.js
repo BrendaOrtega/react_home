@@ -11,9 +11,6 @@ import Noticias from '../noticias/Noticias';
 import Footer from '../footer/Footer';
 import Nav from '../nav/Nav';
 
-
-
-
 class HomePage extends React.Component {
     render(){
 

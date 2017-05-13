@@ -1,0 +1,3 @@
+.image{
+	composes: image from '../gob/Gob.css';
+}

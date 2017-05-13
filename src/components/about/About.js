@@ -37,7 +37,7 @@ class About extends React.Component {
                       <div className="img-containers bot ">
                           <div className="img-click">
                               <img className="img-responsive" src={cuatro} alt=""/>
-                              <p className="img-info">Consulta estatal para el PED</p>
+                              <p className="img-info">Consulta estatal para el PED: Hidalgo</p>
                           </div>
                       </div>
                   </div>

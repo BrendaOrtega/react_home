@@ -1,15 +1,16 @@
+.atras{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
 .back{
     background-image:url('https://images.pexels.com/photos/132650/pexels-photo-132650.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
     background-position: cover;
     width: 100%;
     height:auto;
 }
-.fondo{
-    background-color: white;
-    height: auto;
-}
 .map{
-    margin-top:120px ;
+    margin-top:100px ;
 }
 .mapa{
     width:100%;
@@ -19,6 +20,7 @@
 }
 .form{
     margin-top: 100px;
+
 
 }
 .tittle{
@@ -60,8 +62,15 @@
     display: flex;
     align-items: center;
 }
-input, textarea{
-    width:93%;
+input{
+    border:none;
+    margin-left:10px;
+    border-left:solid 1px  #ccc;
+    padding-left: 5px;
+    outline: none;
+}
+ textarea{
+    width: 95%;
     border:none;
     margin-left:10px;
     border-left:solid 1px  #ccc;
@@ -81,8 +90,8 @@ input, textarea{
     color:white;
     border-radius: 5px;
     padding:5px auto;
-    width:15%;
-    margin-left: 42.5%;
+    width:20%;
+    margin-left: 40%;
     margin-top: 30px;
     margin-bottom: 50px;
     font-family: 'Varela Round', sans-serif;
@@ -96,23 +105,23 @@ input, textarea{
     color:#7eb7b4;
     border: solid 1px #7eb7b4;
 }
-@media(max-width:1000px){
+@media(max-width:1030px){
     .back{
         height: 135px;
     }
     .map{
-        margin-top: 50px;
+        margin-top: 100px;
     }
 }
-@media(max-width:330px){
+@media(max-width:430px){
     input{
         margin-left: 15px;
         width:80%;
         padding-left: 10px;
     }
-    .btn{
-        width:20%;
-        margin-left: 40%;
+    .map, .form{
+        margin-top: 50px;
     }
+
 }
 

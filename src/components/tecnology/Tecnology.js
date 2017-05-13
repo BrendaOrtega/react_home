@@ -13,7 +13,8 @@ class Tecnology extends React.Component {
                         <div className={ css.rows + ' row '}>
                             <div className={css.cols + ' col-lg-3 '}>
                                 <div className={css.circle}>
-                                    <i className={css.icon + " glyphicon glyphicon-thumbs-up "} aria-hidden="true"></i>                                </div>
+                                    <i className={css.icon + " fa fa-code "} aria-hidden="true"></i>
+                                 </div>
                             </div>
                             <div className={css.cols + ' col-lg-6  '}>
                                 <p className={css.lenguaje}>Django</p>

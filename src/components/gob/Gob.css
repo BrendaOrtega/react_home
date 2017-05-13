@@ -1,0 +1,7 @@
+.image{
+    width: 80%;
+    margin-left: 10%;
+    height:auto;
+    filter: grayscale(90%);
+    opacity: 0.4;
+}
