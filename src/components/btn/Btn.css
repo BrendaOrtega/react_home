@@ -22,7 +22,12 @@
 
 @media(max-width: 430px) {
     .btn_cotizar {
-        width: 50%;
+        display: none;
+    /*    width: 50%;
         margin-left: 25%;
+        border:solid 1px #2f4154;
+        background-color: #2f4154;
+        margin-top: 80px;*/
     }
+    
 }

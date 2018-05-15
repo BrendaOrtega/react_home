@@ -4,8 +4,7 @@
     background-color: white;
 }
 .back{
-    background-image:url('../../assets/background-01.svg');
-    background-position: cover;
+    background-color: #0d2939;
     width: 100%;
     height:auto;
 }

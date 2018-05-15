@@ -4,5 +4,6 @@
     "development": {
       "presets": ["react-hmre"]
     }
-  }
+  },
+  "plugins": ["transform-es2015-arrow-functions"]
 }
